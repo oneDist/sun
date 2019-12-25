@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  
+  padding: 0 200px;
+  background-color: #333;
+  color: #fff;
+  height: 70px;
+}
+
+.nav {
+  height: 70px;
+  line-height: 70px;
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  height: 66px;
+  width: 100px;
+  font-size: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.nav li:hover{
+  /*border-bottom: 4px solid #12C494;*/
+  color: #12C494;
+}
+.view {
+  /*padding: 50px 200px;*/
+}
+
